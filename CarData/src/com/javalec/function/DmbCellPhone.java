@@ -2,7 +2,7 @@ package com.javalec.function;
 
 public class DmbCellPhone extends CellPhone {
 	
-	public int channel=0;
+	public int channel;
 	
 	public DmbCellPhone(String model,String color,int channel) {
 		super(model,color);	
