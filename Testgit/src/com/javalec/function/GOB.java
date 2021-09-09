@@ -10,6 +10,7 @@ public class GOB {
 	}
 	public int Gob() {
 		int gob = num1 * num2 ;
+		System.out.println("123123");
 		return gob;
 	}
 }
