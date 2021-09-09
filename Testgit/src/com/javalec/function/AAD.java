@@ -11,6 +11,7 @@ public class AAD {
 	}
 	public int Add() {
 		int add = num1 + num2 ;
+		System.out.println("123123123");
 		return add;
 	}
 	
