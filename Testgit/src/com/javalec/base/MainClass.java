@@ -16,6 +16,7 @@ public class MainClass {
 		
 		Calc calc = new Calc(num1, num2);
 		
+		System.out.println("123");
 
 	}
 
