@@ -10,10 +10,6 @@ public class Calc {
 		this.num2 = num2;
 		compute();
 	}
-	DEL del = new DEL(num1,num2);
-	GOB gob = new GOB(num1,num2);
-	NANU nanu = new NANU(num1,num2);
-
 	
 	private void compute() {
 		AAD add = new AAD(num1,num2);
