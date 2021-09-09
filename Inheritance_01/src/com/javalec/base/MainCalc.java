@@ -13,12 +13,9 @@ public class MainCalc {
 		System.out.print("second number : ");
 		int num2=scanner.nextInt();
 		
-		Div div = new Div();
-		System.out.println(">>>>결과<<<<");
-		System.out.println("덧셈 : "+div.addNum(num1,num2));
-		System.out.println("뺄셈 : "+div.subNum(num1,num2));
-		System.out.println("곱셈 : "+div.mulNum(num1,num2));
-		System.out.println("나눗셈 : "+div.divNum(num1,num2));
+		System.out.println(">>>result<<<");
+		Div div = new Div(num1,num2);
+		
 //		div.addNum(num1,num2);
 //		div.subNum(num1,num2);
 //		div.mulNum(num1,num2);

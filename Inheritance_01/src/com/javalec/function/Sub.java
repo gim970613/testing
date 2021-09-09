@@ -1,15 +1,15 @@
 package com.javalec.function;
 
 public class Sub extends Add {
-	int num1,num2;
+	
 
-	public Sub() {
-		// TODO Auto-generated constructor stub
+	public Sub(int num1,int num2) {
+		super(num1, num2);
 	}
 	
-	public int subNum(int num1, int num2) {
+	public void subNum() {
 		int sub = num1-num2;
-		return sub;
+		System.out.println("sub : "+sub);
 	}
 	
 	

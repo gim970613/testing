@@ -4,13 +4,19 @@ public class Add {
 
 	int num1,num2;
 
-	public Add() {
-		// TODO Auto-generated constructor stub
-	}
 	
-	public int addNum(int num1, int num2) {
+
+	public Add(int num1, int num2) {
+		super();
+		this.num1 = num1;
+		this.num2 = num2;
+	}
+
+
+
+	public void addNum() {
 		int add = num1+num2;
-		return add;
+		System.out.println("add : "+add);
 	}
 	
 }
